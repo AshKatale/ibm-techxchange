@@ -4,7 +4,7 @@ A Retrieval-Augmented Generation (RAG) based compliance analysis system for auto
 
 ## Overview
 
-The **Compliance RAG Agent** helps companies analyze uploaded legal/compliance documents against regulations such as **GDPR, NIST, HIPAA, ISO27001**, and more. It uses IBM Watson LLMs, vector storage with AstraDB, and a web-based API for end-to-end document ingestion, processing, compliance gap analysis, and reporting.
+The **Compliance RAG Agent** helps companies analyze uploaded legal/compliance documents against regulations such as **GDPR, NIST, HIPAA, ISO27001**, and more. It uses IBM Watson LLMs, vector storage [...]
 
 ## Features
 
@@ -28,6 +28,10 @@ The **Compliance RAG Agent** helps companies analyze uploaded legal/compliance d
 backend/    # Flask API, business logic, compliance agent
 frontend/   # Vite/React UI (see frontend/README.md)
 ```
+
+## Demo
+
+- **Live Deployment:** [https://veritas-nine.vercel.app/](https://veritas-nine.vercel.app/)
 
 ## API Endpoints
 
@@ -92,10 +96,4 @@ npm run dev
 - **Compliance workflows** are defined via flexible prompts and tool interfaces in `backend/agent.py`.
 - Add new regulations or document types by extending agent tools and vectorstore setup.
 
-## License
 
-*No license specified yet.*
-
----
-
-> **This repository is a prototype for IBM TechXchange and intended for demonstration, not production use. Use at your own risk.*
